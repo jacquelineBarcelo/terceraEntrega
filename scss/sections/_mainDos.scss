@@ -1,0 +1,33 @@
+.text {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.text:hover {
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+.separador {
+    height: 3px;
+    background-color: black;
+}
+
+.container{
+    margin: 20px;
+    padding: 30px;
+}
+.container img {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+.container p {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.row {
+    background-color: #bebebe;
+}
