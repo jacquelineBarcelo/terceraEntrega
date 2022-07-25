@@ -3,6 +3,7 @@
 
 .footer {
   text-align: center;
+  background-color: black;
   color: white; }
 
 .footer a {
@@ -13,6 +14,10 @@
   height: 2%;
   width: 2%;
   margin: 20px; }
+
+.footer img:hover {
+  transform: scale(1.5);
+  transition: 1s; }
 
 .titulo h1 {
   text-align: center;
@@ -50,17 +55,52 @@
   background-color: black; }
 
 .container {
-  margin: 20px;
-  padding: 30px; }
+  margin: 20px auto;
+  padding: 30px auto;
+  text-align: center; }
+
+.container h4 {
+  font-weight: bold;
+  border-bottom: 2px black solid; }
+
+.container h4:hover {
+  color: #424242;
+  transform: scale(1.5);
+  transition: 1s; }
 
 .container img {
   height: 300px;
   width: 300px;
-  margin: 10px; }
+  margin: 10px auto;
+  align-items: center; }
 
 .container p {
   text-align: center;
-  margin: 10px auto; }
+  margin: 10px auto;
+  padding: 10px; }
 
-.row {
-  background-color: #bebebe; }
+.container span {
+  display: flex;
+  justify-content: center;
+  font-size: medium; }
+
+.container a {
+  text-decoration: none;
+  color: black;
+  font-size: large; }
+
+.container a span:hover {
+  transform: scale(1.9);
+  transition: 1s; }
+
+.container h5 {
+  text-align: center; }
+
+li {
+  padding: 3px;
+  font-weight: bold;
+  list-style: none; }
+
+li:hover {
+  transform: scale(1.5);
+  transition: 1s; }

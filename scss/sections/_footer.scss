@@ -1,5 +1,6 @@
 .footer {
     text-align: center;
+    background-color: black;
     color: white;
 }
 
@@ -13,3 +14,8 @@
     width: 2%;
     margin: 20px;
 }
+.footer img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
